@@ -122,7 +122,14 @@ div.content {
   text-align: center;
 }
 
-
+@media(max-width: 768px){
+  content,
+  sidebar,
+  sidebar2,
+    float:none;
+    text-align:center;
+    width:100%;
+  }
 
  
  
